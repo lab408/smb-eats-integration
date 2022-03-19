@@ -9,9 +9,9 @@
         {
             "id": "CustomerName",
             "type": "string",
-            "label": "Customer Name",
+            "label": "Buyer",
             "readOnly": false,
-            "value": "${context.orderData.CustomerName}",
+            "value": "${context.orderData.Buyer}",
             "constraints": {
                 "required": false
             }
@@ -19,9 +19,9 @@
         {
             "id": "customer_e_mail",
             "type": "string",
-            "label": "Customer E-mail",
+            "label": "Sales Area",
             "readOnly": false,
-            "value": "${context.orderData.CustomerEmail}",
+            "value": "${context.orderData.SalesArea}",
             "constraints": {
                 "required": false
             }
@@ -29,9 +29,9 @@
         {
             "id": "Address",
             "type": "string",
-            "label": "Address",
+            "label": "Material",
             "readOnly": false,
-            "value": "${context.orderData.Address}",
+            "value": "${context.orderData.Material}",
             "constraints": {
                 "required": false
             }
@@ -39,9 +39,9 @@
         {
             "id": "ProductID",
             "type": "string",
-            "label": "Product ID",
+            "label": "Quantity",
             "readOnly": false,
-            "value": "${context.orderData.ProductID}",
+            "value": "${context.orderData.Quantity}",
             "constraints": {
                 "required": true
             }
